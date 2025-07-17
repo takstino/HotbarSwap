@@ -20,4 +20,5 @@ Swap 2 Player hotbars
 
 /tag @s add swap\_playerB
 
-\0# **To swap hotbars:**
+\# **To swap hotbars:**
+/function hotbarswap_test_plaplb:run
