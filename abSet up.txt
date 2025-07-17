@@ -1,0 +1,8 @@
+#setup a scoreboard to attatch tags to
+/scoreboard objectives add swapHotbar dummy
+
+# To become PlayerA:
+tag @s add swap_playerA
+
+# To become PlayerB:
+tag @s add swap_playerB
