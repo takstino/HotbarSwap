@@ -1,4 +1,4 @@
-say loading...
+
 # Load hotbar slots 0–8 for PlayerA
 execute at @e[tag=shulker_playerA,limit=1] run loot replace entity @e[tag=swap_playerB] hotbar.0 1 mine ~ ~ ~
 

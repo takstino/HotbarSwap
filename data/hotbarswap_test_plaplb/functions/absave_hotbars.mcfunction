@@ -1,4 +1,4 @@
-say saving...
+
 # saving Hotbar data to the shulker at Shulker location for "PlayerA"
 execute at @e[tag=shulker_playerA,limit=1] run data modify block ~ ~ ~ Items append from entity @a[tag=swap_playerA,limit=1] Inventory[{Slot:0b}]
 execute at @e[tag=shulker_playerA,limit=1] run data modify block ~ ~ ~ Items append from entity @a[tag=swap_playerA,limit=1] Inventory[{Slot:1b}]
